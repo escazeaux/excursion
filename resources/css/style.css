@@ -1,18 +1,68 @@
 body {
   background-color: black;
   text-align: center;
+  color: white;
 }
 
-header {
+/* ************* */
+/* HEADER  */
+/* ************* */
+
+header h1 {
   font-family: Verdana;
   font-weight: normal;
   font-size: 50px;
-  color: white;
-  text-align: center;
   height: 100px;
 }
 
-#toplink {
+.toplink {
   color: aquamarine;
   font-size: 16px;
+}
+
+/* ************* */
+/* VIDEO  */
+/* ************* */
+.video {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.video video {
+  height: 600px;
+}
+
+/* ************* */
+/* TENTE  */
+/* ************* */
+.montitre {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+.tente img {
+  width: 100%;
+  max-width:800px;
+}
+
+.text {
+  font-family: Verdana;
+  font-size: 21px;
+  color:gray;
+}
+/* ************* */
+/* PHONE  */
+/* ************* */
+.cellphone {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+/* ************* */
+/* FOOTER  */
+/* ************* */
+footer {
+  text-align: right;
+  color: gray;
 }
